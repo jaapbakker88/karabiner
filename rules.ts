@@ -60,11 +60,12 @@ const rules: KarabinerRules[] = [
       t: open("https://todoist.com"),
     },
     // o = "Open" applications
-    o: {
-      g: app("Google Chrome"),
-      s: app("Slack"),
+    a: {
+      b: app("Firefox"),
       t: app("Ghostty"),
       f: app("Finder"),
+      v: app("Visual Studio Code"),
+      o: app("Obsidian"),
     },
 
     // TODO: This doesn't quite work yet.
